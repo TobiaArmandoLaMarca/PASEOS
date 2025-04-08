@@ -96,7 +96,7 @@ while sat_actor.local_time.mjd2000 <= t_final.mjd2000:
     if idx >= len(r):
        break  # interrompe se finiti i dati
     pos = r[idx]
-    vel = v[idx]1
+    vel = v[idx]
     pos = np.array(pos)
     vel = np.array(vel)  
     #import pdb; pdb.set_trace()
